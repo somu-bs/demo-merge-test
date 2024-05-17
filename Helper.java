@@ -4,4 +4,8 @@ public class Helper {
     Helper() {
         System.out.println("Constructor Calling from Helper");
     }
+
+    public Helper(int value) {
+        System.out.println("value is: " + value);
+    }
 }
